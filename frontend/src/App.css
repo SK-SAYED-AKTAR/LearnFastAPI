@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.dashboardOptionCard{
+  background-color: #1976d2 !important;
+  font-size: 23px;
+  color: whitesmoke !important;
+  display: inline-block;
+  transform: scale(0.8);
+  border-radius: 25% !important;
+  border: 3px solid white !important;
+  padding: 10px !important;
+}
+
+.optionIcons{
+  background-color: #1976d2 !important;
+  font-size: 30px !important;
+  color: whitesmoke !important;
+  display: inline-block;
+}
+
+#message_card{
+  border-radius: 50px;
+  background: #5a99ee;
+  display: inline-block;
+  padding: 5px 20px;
+}
